@@ -5,4 +5,7 @@ Instructions to run this project:
    in your editor terminal.
 3. Then run command "composer install" in the folder "vuelaraveltask".
 4. Then run command "npm install" in the folder "vuelaraveltask".
-5. Then run "php artisan serve" and in the browser go to localhost:8000.
+5. Then if using Linux, run command "cp .env.example .env" and if
+   using Windows, run command "copy .env.example .env" (in the folder "vuelaraveltask").
+6. Then generate app key by running command "php artisan key:generate" (in the folder "vuelaraveltask").
+7. Then run "php artisan serve" and in the browser go to localhost:8000 (in the folder "vuelaraveltask").
