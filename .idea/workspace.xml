@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="925eab7c-9810-486a-abb1-766e453dd5e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ForgetPassword.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ForgetPassword.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/UpdatePassword.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/UpdateProfile.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +57,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../React and Next Projects/vue-task" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\XAMPP\htdocs\vuetask\resources\views" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,22 +83,38 @@
       <workItem from="1612117923289" duration="3977000" />
       <workItem from="1612162337360" duration="6116000" />
       <workItem from="1612172935078" duration="107000" />
-      <workItem from="1612191088663" duration="7053000" />
+      <workItem from="1612191088663" duration="7457000" />
+      <workItem from="1612339035328" duration="156000" />
+      <workItem from="1612542779848" duration="16293000" />
+      <workItem from="1612598981602" duration="38571000" />
+      <workItem from="1612683714831" duration="965000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="438" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611997450561">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1611997450561" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1612191436518">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1612339200093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612191436518" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612339200093" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1611997612152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -74,9 +123,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1612032141199" />
-    <state x="346" y="49" key="search.everywhere.popup" timestamp="1612020339154">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1612624389886">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1612020339154" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1612624389886" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/js/components/Dashboard.vue</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

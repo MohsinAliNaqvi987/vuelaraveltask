@@ -11,10 +11,6 @@
             <label>Email</label>
             <input type="text" v-model="email" />
         </div>
-        <div class="d-flex justify-content-between my-2">
-            <label>Enter New Password</label>
-            <input type="text" v-model="newPass" />
-        </div>
         <button class="btn btn-primary my-2" v-on:click="forgetPassword">Submit</button>
         <button class="btn btn-primary my-2" v-on:click="goBackFromForget">Back</button>
     </div>
@@ -25,7 +21,7 @@ export default {
     name: "ForgetPassword",
     data(){
         return {
-            email:'',alertDisplaySuccess:false,alertDisplayDanger:false,alertMessage:'',newPass:''
+            email:'',alertDisplaySuccess:false,alertDisplayDanger:false,alertMessage:''
         }
     },
     methods:{
@@ -35,9 +31,9 @@ export default {
         forgetPassword(){
             this.$axios.post("/vueapp/forgetPassword", {
                 email:this.email,
-                newPassword:this.newPass
             })
                 .then(res => {
+                    console.log(res);
                     this.alertDisplaySuccess=true;
                     this.alertMessage=res.data.message;
                     setTimeout(()=>{
@@ -57,3 +53,7 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+
+</style>

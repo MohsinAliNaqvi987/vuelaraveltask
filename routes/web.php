@@ -13,12 +13,19 @@ use App\Http\Controllers\MainController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/{any}', function () {
     return view('welcome');
-});
+})->where('any', '.*');
 
 Route::middleware(['username','email','password','confirmPassword'])->post('/vueapp/signup', 'App\Http\Controllers\MainController@signup');
 
-Route::middleware(['forgetEmail','newPassword'])->post('/vueapp/forgetPassword', 'App\Http\Controllers\MainController@forgetPassword');
+Route::middleware(['loginEmail','loginPassword'])->post('/vueapp/login', 'App\Http\Controllers\MainController@login');
+
+Route::post('/vueapp/googleLogin', 'App\Http\Controllers\MainController@googleLogin');
+
+Route::middleware('forgetEmail')->post('/vueapp/forgetPassword', 'App\Http\Controllers\MainController@forgetPassword');
+
+Route::middleware('newPassword')->post('/vueapp/resetPassword', 'App\Http\Controllers\MainController@resetPassword');
 
 Route::middleware('updateEmail')->post('/vueapp/updateProfile', 'App\Http\Controllers\MainController@updateProfile');
+
