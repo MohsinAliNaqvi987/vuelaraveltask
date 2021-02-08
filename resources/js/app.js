@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import axios from 'axios';
-import GoogleSignInButton from 'vue-google-signin-button-directive';
 import Router  from 'vue-router';
 import Dashboard from './components/Dashboard';
 import Signup from "./components/Signup";
